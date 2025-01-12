@@ -1,0 +1,46 @@
+// 输入框
+.input-title {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.top-bar {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #909399;
+}
+
+.input-child {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+// 自定义搜索框
+.cx-input{
+    margin: 8px 0;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    padding: 0 8px;
+    width: 135px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.cx-input:focus {
+    outline: none;
+    border: 2px solid rgb(18, 150, 219);
+    transition: all 1.2s;
+}
